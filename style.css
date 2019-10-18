@@ -1,0 +1,83 @@
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  flex: 1 1 auto;
+  padding: 5px;
+}
+
+.wrapper {
+  background-color: gray;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.header,
+.content {
+  background-color: white;
+  margin: 5px;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.header {
+    background-color: lightyellow;
+    align-items: center;
+    justify-content: center;
+    height: 100;
+    /* background-image: url("./img/bg.png"); */
+  }
+
+.content p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section-header {
+    background-color: skyblue;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.section-header p {
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.namecard {
+    color:black;
+    display: flex;
+    flex-direction: column;
+}
+
+.namecard * {
+    text-align: center;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.tb_projects td {
+    border: 1px solid white;
+    vertical-align: top;
+}
+
+.bio {
+    display: flex;
+    flex-direction: row;
+}
+
+.bio-text {
+    align-items: left;
+    align-content: left;
+}
+
+.bio-photo {
+    margin:10px;
+}
